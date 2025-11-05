@@ -7,6 +7,6 @@ public class Bill3 {
         double sum = Double.parseDouble(args[3]);
         double sum1 = Math.ceil(sum / 3.0);
         int numDiners = 3;
-        System.out.println("dear "+ name1 + " "+ name2 + " " +name3 + " pay" + " " +sum1 + " " + "shekels each. " + "There are " + numDiners + " diners around the table." );
+        System.out.println("dear "+ name1 + " "+ name2 + " " +name3 + " pay" + " " +sum1 + " " + "shekels each. There are " + numDiners + " diners around the table." );
 	}
 }
